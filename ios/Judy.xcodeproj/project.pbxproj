@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* JudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* JudyTests.m */; };
+		0709A0A0439C4598BF285AFA /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C1AD27F24F44F1D8789A393 /* OpenSans-Bold.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-Judy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Judy.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		16DA15EAC7F51905C231618C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		36C1818FB6A04DCF8E85703A /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 911638CC5F2B404CB7BC22E9 /* OpenSans-SemiBold.ttf */; };
+		4B3864DCCDFA4BD4BDB51A1E /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 569841E047FB44D290A8919E /* PlusJakartaSans-SemiBold.ttf */; };
+		536C21C9D2D34EDD89ADAE6C /* OleoScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8051A4F3FD194DD6B807DCD9 /* OleoScript-Regular.ttf */; };
+		690C766CFC6C43C08C4BEDA1 /* PublicSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FD98C08C6094B97A4270765 /* PublicSans-Regular.ttf */; };
+		6D7E00125A194DE49E7FD4F8 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D40D8AA63EA414DAB68D1D7 /* Montserrat-Medium.ttf */; };
+		75992EC760D04775BC78E761 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38A5F2F7389A45208974CA4B /* PlusJakartaSans-Bold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-Judy-JudyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Judy-JudyTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		95D46D9E4BA84293A606E4E7 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC23D82E6A2A4B5280838B19 /* Poppins-SemiBold.ttf */; };
+		99970596E042432F98FE2190 /* PublicSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A74081972E4D46F2B09F72FE /* PublicSans-SemiBold.ttf */; };
+		A6FEE7A9FBFE4F4BB933B26F /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB2A4824081C4FFE89F32CAB /* Poppins-Medium.ttf */; };
+		B05499D1B12E49579CAA696D /* OleoScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64C7EC26DC4C4D1EB9B9E5D5 /* OleoScript-Bold.ttf */; };
+		CA968482A0D94F48A25474D7 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 59FF9A3D5C1E4DEE8D3EA882 /* .gitkeep */; };
+		CD044B118A7649D5A5D45837 /* Aleo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E10248050264C22B5277D60 /* Aleo-Bold.ttf */; };
+		E52FAD7EAA1A4C7E8CEBB234 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AEE295BF8904A33AC22120A /* Poppins-Bold.ttf */; };
+		EC8C5E1711EC40B6A143E6D3 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8ADD66DD2B13428C8A2D7BEE /* Poppins-Light.ttf */; };
+		F3C0C02CFB424DE0AFB7CF10 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00ABE10C242945449081B248 /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00ABE10C242945449081B248 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* JudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* JudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JudyTests.m; sourceTree = "<group>"; };
@@ -39,13 +54,28 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Judy/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Judy/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Judy-JudyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Judy-JudyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A5F2F7389A45208974CA4B /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Bold.ttf"; path = "../src/assets/fonts/PlusJakartaSans-Bold.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-Judy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Judy.debug.xcconfig"; path = "Target Support Files/Pods-Judy/Pods-Judy.debug.xcconfig"; sourceTree = "<group>"; };
+		569841E047FB44D290A8919E /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-SemiBold.ttf"; path = "../src/assets/fonts/PlusJakartaSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Judy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Judy.release.xcconfig"; path = "Target Support Files/Pods-Judy/Pods-Judy.release.xcconfig"; sourceTree = "<group>"; };
+		59FF9A3D5C1E4DEE8D3EA882 /* .gitkeep */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = .gitkeep; path = ../src/assets/fonts/.gitkeep; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Judy-JudyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Judy-JudyTests.debug.xcconfig"; path = "Target Support Files/Pods-Judy-JudyTests/Pods-Judy-JudyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Judy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Judy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C7EC26DC4C4D1EB9B9E5D5 /* OleoScript-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OleoScript-Bold.ttf"; path = "../src/assets/fonts/OleoScript-Bold.ttf"; sourceTree = "<group>"; };
+		6D40D8AA63EA414DAB68D1D7 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../src/assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		6E10248050264C22B5277D60 /* Aleo-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Aleo-Bold.ttf"; path = "../src/assets/fonts/Aleo-Bold.ttf"; sourceTree = "<group>"; };
+		8051A4F3FD194DD6B807DCD9 /* OleoScript-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OleoScript-Regular.ttf"; path = "../src/assets/fonts/OleoScript-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Judy/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Judy-JudyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Judy-JudyTests.release.xcconfig"; path = "Target Support Files/Pods-Judy-JudyTests/Pods-Judy-JudyTests.release.xcconfig"; sourceTree = "<group>"; };
+		8ADD66DD2B13428C8A2D7BEE /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		8AEE295BF8904A33AC22120A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		8C1AD27F24F44F1D8789A393 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../src/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		8FD98C08C6094B97A4270765 /* PublicSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PublicSans-Regular.ttf"; path = "../src/assets/fonts/PublicSans-Regular.ttf"; sourceTree = "<group>"; };
+		911638CC5F2B404CB7BC22E9 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../src/assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		A74081972E4D46F2B09F72FE /* PublicSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PublicSans-SemiBold.ttf"; path = "../src/assets/fonts/PublicSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		AC23D82E6A2A4B5280838B19 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FB2A4824081C4FFE89F32CAB /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +139,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5F40F3B96D5E4EF5933F4A5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E10248050264C22B5277D60 /* Aleo-Bold.ttf */,
+				6D40D8AA63EA414DAB68D1D7 /* Montserrat-Medium.ttf */,
+				64C7EC26DC4C4D1EB9B9E5D5 /* OleoScript-Bold.ttf */,
+				8051A4F3FD194DD6B807DCD9 /* OleoScript-Regular.ttf */,
+				8C1AD27F24F44F1D8789A393 /* OpenSans-Bold.ttf */,
+				911638CC5F2B404CB7BC22E9 /* OpenSans-SemiBold.ttf */,
+				38A5F2F7389A45208974CA4B /* PlusJakartaSans-Bold.ttf */,
+				569841E047FB44D290A8919E /* PlusJakartaSans-SemiBold.ttf */,
+				8AEE295BF8904A33AC22120A /* Poppins-Bold.ttf */,
+				8ADD66DD2B13428C8A2D7BEE /* Poppins-Light.ttf */,
+				FB2A4824081C4FFE89F32CAB /* Poppins-Medium.ttf */,
+				00ABE10C242945449081B248 /* Poppins-Regular.ttf */,
+				AC23D82E6A2A4B5280838B19 /* Poppins-SemiBold.ttf */,
+				8FD98C08C6094B97A4270765 /* PublicSans-Regular.ttf */,
+				A74081972E4D46F2B09F72FE /* PublicSans-SemiBold.ttf */,
+				59FF9A3D5C1E4DEE8D3EA882 /* .gitkeep */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +178,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				5F40F3B96D5E4EF5933F4A5E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -245,8 +299,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				16DA15EAC7F51905C231618C /* PrivacyInfo.xcprivacy in Resources */,
+				CD044B118A7649D5A5D45837 /* Aleo-Bold.ttf in Resources */,
+				6D7E00125A194DE49E7FD4F8 /* Montserrat-Medium.ttf in Resources */,
+				B05499D1B12E49579CAA696D /* OleoScript-Bold.ttf in Resources */,
+				536C21C9D2D34EDD89ADAE6C /* OleoScript-Regular.ttf in Resources */,
+				0709A0A0439C4598BF285AFA /* OpenSans-Bold.ttf in Resources */,
+				36C1818FB6A04DCF8E85703A /* OpenSans-SemiBold.ttf in Resources */,
+				75992EC760D04775BC78E761 /* PlusJakartaSans-Bold.ttf in Resources */,
+				4B3864DCCDFA4BD4BDB51A1E /* PlusJakartaSans-SemiBold.ttf in Resources */,
+				E52FAD7EAA1A4C7E8CEBB234 /* Poppins-Bold.ttf in Resources */,
+				EC8C5E1711EC40B6A143E6D3 /* Poppins-Light.ttf in Resources */,
+				A6FEE7A9FBFE4F4BB933B26F /* Poppins-Medium.ttf in Resources */,
+				F3C0C02CFB424DE0AFB7CF10 /* Poppins-Regular.ttf in Resources */,
+				95D46D9E4BA84293A606E4E7 /* Poppins-SemiBold.ttf in Resources */,
+				690C766CFC6C43C08C4BEDA1 /* PublicSans-Regular.ttf in Resources */,
+				99970596E042432F98FE2190 /* PublicSans-SemiBold.ttf in Resources */,
+				CA968482A0D94F48A25474D7 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,10 +654,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -658,10 +723,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
