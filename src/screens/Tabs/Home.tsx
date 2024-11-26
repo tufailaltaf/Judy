@@ -11,7 +11,7 @@ export const Home = () => {
   return (
     <Page gap>
     
-       {/* <InstaStory
+       <InstaStory
       data={Small}
       duration={10}
       customSwipeUpComponent={
@@ -19,7 +19,7 @@ export const Home = () => {
           <Text>Swipe</Text>
         </View>
       }
-    /> */}
+    />
       <HorizontalCardList
         data={banner}
         keyExtractor={item => item.id}

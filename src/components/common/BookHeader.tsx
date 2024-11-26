@@ -1,14 +1,15 @@
 import { Icon, Image, Text, TouchableOpacity, View } from '@components'
 import { useNavigation } from '@react-navigation/native'
 import React from 'react'
+import { Platform } from 'react-native'
 
 export const BookHeader = () => {
   const navigation = useNavigation()
   return (
-    <View backgroundColor='onPrimary' align='center'  row padding paddingTop='xl' space='between'>
+    <View backgroundColor='onPrimary' align='center'  row padding paddingTop={Platform.OS === 'ios' ? 'xl' : 'b'} space='between'>
        <View row gap align='center'>
         <TouchableOpacity onPress={()=>navigation.goBack()}>
-        <Icon name='BackBlack' size='xs'/>
+        <Icon name='BackBlack' marginTop='xs' size='xs'/>
         </TouchableOpacity>
         <Text color='onBackground' font='PlusJakartaBold' size='h5' text='Books Store'/>
    

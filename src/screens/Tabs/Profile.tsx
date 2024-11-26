@@ -2,15 +2,16 @@ import { View, Text, DrawerContent, Strike, Image, Page, Pressable, Icon, ImageB
 // import { UserTabProps } from '.'
 import ParallaxScrollView from '../../components/layout/parallax'
 import { useNavigation } from '@react-navigation/native'
+import { Platform } from 'react-native'
 export const Profile = () => {
     const navigation = useNavigation()
     return (
         <ParallaxScrollView
         headerImage={
             <ImageBackground width={'100%'} aspectRatio={1}  src='About' >
-                <View  padding paddingVertical='xl' row align='center' space='between'  >
+                <View  padding paddingVertical={Platform.OS === 'ios' ? 'xl' : 'b'} row align='center' space='between'  >
                     <TouchableOpacity onPress={()=>navigation.goBack()}>
-                    <Icon  name='Back' color='onPrimary'  size='xs' />
+                    <Icon  name='Back' color='onPrimary'  size='xs' marginTop='xs'/>
                     </TouchableOpacity>
                     <Text text='About  The  Author' font='PlusJakartaBold' size='h4' color='onPrimary' paddingRight  />
                     <Text text='' />

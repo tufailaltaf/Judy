@@ -6,7 +6,7 @@ export function CustomDrawerContent(props: any) {
 
     <View  flex  >
       <Safe>
-        <View paddingHorizontal align="center" row gap>
+        <View paddingHorizontal paddingVertical align="center" row gap>
           <Pressable onPress={()=>props.navigation.closeDrawer()}>
           <Icon name='Menu' size="xs" />
           </Pressable>

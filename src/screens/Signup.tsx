@@ -4,8 +4,9 @@ import { BookingCard, Button, Form, Icon, Image, ImageBackground, OTPInput, Page
 import { UserProps } from '.'
 const AlfredSignup = (props: UserProps<"Signup">) => {
     return (
-        <ImageBackground flex src='BackgroundImage' height={"100%"} backgroundColor='primary'>
-            <Page flex >
+        <Form>
+        <ImageBackground  src='BackgroundImage' height={"100%"} backgroundColor='primary'>
+            <Page  >
                 {/* <Form> */}
                     <View flex align='middle'  margin='s' gap padding paddingVertical='l' >
                         <View align='mid'>
@@ -22,6 +23,7 @@ const AlfredSignup = (props: UserProps<"Signup">) => {
                             id='password'
                             type='password'
                             label='Password'
+                            next='c_password'
                             placeholder="Password"
                             right={() => (<Icon name='Eye' size='xs' />)}
                         />
@@ -53,7 +55,7 @@ const AlfredSignup = (props: UserProps<"Signup">) => {
                             </TouchableOpacity>
                         </View>
 
-                    <View flex align='bottom' paddingBottom>
+                    <View  paddingBottom>
                         <TouchableOpacity onPress={() => props.navigation.navigate('Login')} align='mid' row gap='s'>
                         <Text color='onPrimary' font='PopinsMedium' text='Already have an account?' />
                         <Text color='yellow' font='PopinsMedium' text='Log In' />
@@ -64,6 +66,7 @@ const AlfredSignup = (props: UserProps<"Signup">) => {
 
             </Page>
         </ImageBackground>
+        </Form>
     )
 }
 

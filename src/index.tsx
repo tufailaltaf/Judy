@@ -15,10 +15,10 @@ function App() {
     SplashScreen.hide();
   }, []);
   return (
-    <ErrorBoundary FallbackComponent={() => (<Text>asd</Text>)} >
+    // <ErrorBoundary FallbackComponent={() => (<Text>asd</Text>)} >
 
     <ThemeProvider>
-      <StatusBar backgroundColor={colors.light.primary} barStyle="dark-content" />
+      <StatusBar backgroundColor={colors.light.primary} barStyle='light-content' />
       <GestureHandlerRootView>
         <BottomSheetModalProvider>
           <Root/>
@@ -26,7 +26,6 @@ function App() {
       </GestureHandlerRootView>
       {/* <AlertProvider /> */}
     </ThemeProvider>
-    </ErrorBoundary>
 
   );
 }

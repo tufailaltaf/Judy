@@ -22,13 +22,13 @@ export const Category = () => {
     <HorizontalCardList
       data={PopularBooks}
       keyExtractor={item => item.id}
-      ListHeaderComponent={() => <ListHeader title="Popular List" />}
+      ListHeaderComponent={() => <ListHeader padding={true} title="Popular List" />}
       renderItem={({ item }) => <BookList navigate='BookDetails' cardWidth={120} item={item} />}
     />
     <HorizontalCardList
       keyExtractor={item => item.id}
       data={MovieBooks}
-      ListHeaderComponent={() => <ListHeader title="Books That Should Be Mode Into Movie" />}
+      ListHeaderComponent={() => <ListHeader padding={true} title="Books That Should Be Mode Into Movie" />}
       renderItem={({ item }) => <BookList navigate='BookDetails' cardWidth={120} item={item} />}
     />
 

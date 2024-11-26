@@ -1,11 +1,12 @@
 import { Icon, Image, Text, TouchableOpacity, View } from '@components'
 import { useNavigation } from '@react-navigation/native'
 import React from 'react'
+import { Platform } from 'react-native'
 
 export const HomeHeader = () => {
   const navigation = useNavigation()
   return (
-    <View backgroundColor='onPrimary' align='center'  row padding paddingTop='xl' space='between'>
+    <View backgroundColor='onPrimary' align='center'  row padding paddingTop={Platform.OS === 'ios' ? 'xl' : 's'} space='between'>
        <View row gap align='center'>
         <TouchableOpacity onPress={()=>navigation.navigate('Settings')}>
         <Image src='Dp' width={60} height={60} />

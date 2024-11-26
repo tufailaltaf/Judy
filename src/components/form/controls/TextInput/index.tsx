@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react'
 import { BaseInput, BaseTextInputProps } from '../BaseTextInput'
 import { useForm } from '../../wrapper'
 import { Icon, Pressable } from '@components'
+import colors from '../../../../assets/colors'
 
 type TextInputProps = {
   type?: "text" | "email" | "password",
@@ -57,7 +58,7 @@ export const TextInput = (props: TextInputProps) => {
         secureTextEntry: isVisible,
         right: () => (
           <Pressable onPress={() => setVisible(s => !s)}>
-            <Icon name={isVisible ? 'Eye' : 'EyeOpen'} size='s' />
+            <Icon name={isVisible ? 'Eye' : 'Eye'} style={{tintColor:props.purpose === 'name' && colors.light.primary}} size='s' />
           </Pressable>
         )
       } : {})}

@@ -49,7 +49,7 @@ export const ChatScreen = () => {
         inverted // To show the most recent message at the bottom
       />
 
-      <View padding gap style={{backgroundColor:'#f0f0f0'}} borderRadius shadow row space='between'>
+      <View padding gap style={{backgroundColor:'#f0f0f0'}} align='center' borderRadius shadow row space='between'>
       <TouchableOpacity onPress={sendMessage} >
         <Icon name='Attachments' />
     </TouchableOpacity>

@@ -28,7 +28,7 @@ export const EditProfile = (props: UserProps<"EditProfile">) => {
                 <Text font='PopinsMedium' size='h6' text='Password' />
                 <Text font='PopinsRegular' color='light' text='Change' />
             </View>
-            <TextInput purpose='name' type='password' placeholder='Password' />
+            <TextInput purpose='name'  type='password' placeholder='Password' />
             <Text font='PopinsMedium' size='h5' text='Notifications' />
             <FlatList
                 data={labels}

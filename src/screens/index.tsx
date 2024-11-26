@@ -105,6 +105,7 @@ export function Root(): React.JSX.Element {
             headerRightContainerStyle: {
               paddingRight: 20
             },
+            headerTitleAlign: 'center',
             headerRight: () => <Icon name='Share' size='m' />,
           }}
         >

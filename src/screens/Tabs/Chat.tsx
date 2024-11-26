@@ -43,25 +43,32 @@ export const Chat = () => {
     const navigation = useNavigation()
     useEffect(() => {
         navigation.setOptions({
-       
-           
-             headerTintColor: '#fff',
-             headerTitle: () => <Text style={{ color: '#000', fontSize: 20, fontWeight: 'bold' }}>Messages</Text>
-             ,
-             headerLeft: () => <TouchableOpacity onPress={()=>navigation.goBack()}> <Icon name='BackBlack' size='xs' /></TouchableOpacity>,
-             headerBackTitleVisible: false,
-             headerLeftContainerStyle: {
-               paddingLeft: 20,
-             },
-             // headerTransparent: true,
-             headerRightContainerStyle: {
-               paddingRight: 20
-             },
-             headerRight: () => <TouchableOpacity onPress={()=>navigation.navigate('Notifications')}><Icon name='Notification' size='s' /></TouchableOpacity>,
-             headerShown: true
-         
-        }) 
-     },[])
+            headerTintColor: '#fff',
+            headerTitle: () =>
+                <Text style={{ color: '#000', fontSize: 20, fontWeight: 'bold' }}>
+                    Messages
+                </Text>
+            ,
+            headerLeft: () =>
+                <TouchableOpacity onPress={() => navigation.goBack()}>
+                    <Icon name='BackBlack' size='xs' />
+                </TouchableOpacity>,
+            headerBackTitleVisible: false,
+            headerLeftContainerStyle: {
+                paddingLeft: 20,
+            },
+            // headerTransparent: true,
+            headerRightContainerStyle: {
+                paddingRight: 20
+            },
+            headerRight: () =>
+                <TouchableOpacity onPress={() => navigation.navigate('Notifications')}>
+                    <Icon name='Notification' size='s' />
+                </TouchableOpacity>,
+            headerShown: true,
+            headerTitleAlign: 'center'
+        })
+    }, [])
     return (
         <View flex backgroundColor='surface'>
             <SearchBar Home={false} />
@@ -70,9 +77,9 @@ export const Chat = () => {
                     gap
                     data={messages}
                     renderItem={({ item }) => (
-                        <TouchableOpacity onPress={()=>navigation.navigate('ChatScreen')}>
+                        <TouchableOpacity onPress={() => navigation.navigate('ChatScreen')}>
 
-                            <View width={240} space='between'  row gap>
+                            <View width={240} space='between' row gap>
                                 <View row gap align='center'>
                                     <Icon name={item.icon} size='l' />
                                     <View gap='xs'>

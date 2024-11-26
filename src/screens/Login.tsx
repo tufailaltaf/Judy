@@ -5,6 +5,7 @@ import LinearGradient from 'react-native-linear-gradient'
 import { colors } from '@assets'
 const AlfredLogin = (props: UserProps<"Login">) => {
     return (
+        <Form>
         <ImageBackground  src='BackgroundImage' height={"100%"} backgroundColor='primary' >
             <Page  >
  
@@ -29,9 +30,9 @@ const AlfredLogin = (props: UserProps<"Login">) => {
                         />
 
                         <Button label='Login' onPress={() => props.navigation.navigate('UserTab')}/>
-                        <TouchableOpacity align='center'>
+                        {/* <TouchableOpacity align='center'>
                             <Text size='h6' font='AleoBold' color="onPrimary" text='Forgot Password?' />
-                        </TouchableOpacity>
+                        </TouchableOpacity> */}
                         <View row space='between'>
                             <View borderColor='onPrimary' borderWidth={0.2} flex={1} height={1} margin='s' />
                             <Text size='h6' font='AleoBold' color="onPrimary" text='OR' />
@@ -60,6 +61,7 @@ const AlfredLogin = (props: UserProps<"Login">) => {
                     {/* </Form> */}
             </Page>
         </ImageBackground>
+        </Form>
     )
 }
 

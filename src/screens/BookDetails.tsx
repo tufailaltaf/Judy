@@ -26,7 +26,7 @@ export const BookDetails = (props: UserProps<"BookDetails">) => {
                 </View>
                 <LinearGradient
                     colors={['#00000000', colors.light.surface]}
-                    style={{ bottom: 10, }}
+                    style={{ bottom: 20, }}
                 >
                     <View align='mid'   >
                         <View >
