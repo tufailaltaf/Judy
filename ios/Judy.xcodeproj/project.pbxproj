@@ -13,6 +13,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		36C1818FB6A04DCF8E85703A /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 911638CC5F2B404CB7BC22E9 /* OpenSans-SemiBold.ttf */; };
+		419C03BA2E68887C00CE8854 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		4B3864DCCDFA4BD4BDB51A1E /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 569841E047FB44D290A8919E /* PlusJakartaSans-SemiBold.ttf */; };
 		536C21C9D2D34EDD89ADAE6C /* OleoScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8051A4F3FD194DD6B807DCD9 /* OleoScript-Regular.ttf */; };
 		690C766CFC6C43C08C4BEDA1 /* PublicSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FD98C08C6094B97A4270765 /* PublicSans-Regular.ttf */; };
@@ -307,6 +308,7 @@
 				36C1818FB6A04DCF8E85703A /* OpenSans-SemiBold.ttf in Resources */,
 				75992EC760D04775BC78E761 /* PlusJakartaSans-Bold.ttf in Resources */,
 				4B3864DCCDFA4BD4BDB51A1E /* PlusJakartaSans-SemiBold.ttf in Resources */,
+				419C03BA2E68887C00CE8854 /* Images.xcassets in Resources */,
 				E52FAD7EAA1A4C7E8CEBB234 /* Poppins-Bold.ttf in Resources */,
 				EC8C5E1711EC40B6A143E6D3 /* Poppins-Light.ttf in Resources */,
 				A6FEE7A9FBFE4F4BB933B26F /* Poppins-Medium.ttf in Resources */,
@@ -538,9 +540,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88Y8W464J6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Judy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				INFOPLIST_KEY_CFBundleDisplayName = Judy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -551,10 +556,15 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.judy.app;
 				PRODUCT_NAME = Judy;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -566,8 +576,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88Y8W464J6;
 				INFOPLIST_FILE = Judy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				INFOPLIST_KEY_CFBundleDisplayName = Judy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -578,9 +591,14 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.judy.app;
 				PRODUCT_NAME = Judy;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
